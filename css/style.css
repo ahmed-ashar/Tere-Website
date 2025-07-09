@@ -328,3 +328,149 @@ a {
     color: #9E9DA2;
 }
 /* Testimonial End */
+
+
+/* Benefit Start */
+.benefit-section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.benefit-container > *:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.benefit-container{
+    margin: 100px 0;
+    /* border: 1px solid black; */
+    padding-bottom:200px ;
+}
+
+.benefit-container h1{
+    text-align: center;
+    font-size: 47px;
+    font-weight: 800;
+}
+
+.benefit-container h1 span{
+    color: #75BF7A;
+}
+
+.card{
+    max-width: 1150px;
+    height: 304px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 20px 50px;
+}
+
+.card2{
+    flex-direction: row-reverse;
+    /* text-align: right; */
+    margin-left: auto;
+}
+
+.benefit-left-cont{
+    /* border: 1px solid black; */
+}
+
+.benefit-left-cont div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.benefit-left-cont div h1{
+    font-size: 88px;
+    color: #75BF7A;
+}
+
+.benefit-left-cont div h5{
+    font-size: 34px;
+    margin-left: 50px;
+    font-weight: 600;
+    line-height: 32px;
+    /* color: #9E9DA2; */
+
+}
+
+.benefit-left-cont p{
+    color: #9E9DA2;
+    font-size: 22px;
+    font-weight: 500;
+    /* line-height: 23px; */
+}
+/* Benefit End */
+
+/* Footer Start */
+.footer-section{
+    width: 100%;
+    background: #FFFFFF;
+}
+.footer-container{
+    max-width: 1400px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 40px 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.footer-uppar-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+
+/* border-bottom: 1px solid #000; */
+}
+
+.uppar-first-div{
+    /* border: 1px solid black; */
+}
+
+.uppar-second-div{
+    /* border: 1px solid black; */
+}
+
+.uppar-second-div h5, .uppar-third-div h5{
+    color: #272042;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.uppar-second-div p, .uppar-third-div p{
+    color: #8B8BA5;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.uppar-third-div{
+    /* border: 1px solid black; */
+}
+
+.uppar-fourth-div{
+    /* border: 1px solid black; */
+}
+
+.uppar-fifth-div{
+    /* border: 1px solid black; */
+}
+
+.footer-lower-part{
+    text-align: center;
+    color: #75BF7A;
+    padding: 40px 0;
+    /* margin-top: 6px 0; */
+    border-top: 5px solid #ECECEC;
+    background-color: #FFFFFF;
+}
+/* Footer End */
