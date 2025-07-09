@@ -1,0 +1,534 @@
+@media (min-width: 320px) and (max-width: 768px) {
+
+    /* Navbar Start */
+    .nav-right-cont {
+        display: none;
+    }
+
+    .humburger {
+        display: block;
+    }
+
+    .nav-container {
+        max-width: 100%;
+        padding: 30px 20px;
+    }
+
+    .navbar-section {
+        height: 90px;
+    }
+
+    .nav-left-cont img {
+        width: 100px;
+    }
+
+    /* Navbar End */
+
+    /* Hero Start */
+    .main-container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .hero-container {
+        padding: 0;
+        padding-bottom: 40px;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .hero-right-cont {
+        width: 100%;
+    }
+
+    .hero-right-cont img {
+        width: 100%;
+    }
+
+    .hero-left-cont {
+        width: 100%;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .lower-hero-left-cont {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .uppar-hero-left-cont h1 {
+        font-size: 34px;
+        line-height: 37px;
+    }
+
+    .uppar-hero-left-cont p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .lower-hero-left-cont .btn {
+        font-size: 16px;
+        padding: 12px;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .lower-hero-left-cont img {
+        width: 30px;
+    }
+
+    /* Hero End */
+
+    /* Apply Start */
+    .apply-section {
+        height: auto;
+    }
+
+    .apply-container {
+        margin: 0;
+        width: 100%;
+        padding: 20px;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .apply-left-container {
+        width: 100%;
+    }
+
+    .apply-right-container {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .apply-right-container input {
+        padding: 20px;
+    }
+
+    .apply-right-container button {
+        width: 100%;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    /* Apply End */
+
+    /* Testimonial Start */
+    .uppar-testi-cont {
+        width: 100%;
+        margin: 50px 0 130px;
+    }
+
+    .uppar-testi-cont h5 {
+        font-size: 24px;
+    }
+
+    .uppar-testi-cont p {
+        font-size: 18px;
+    }
+
+    .lower-testi-cont {
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+    .step1 {
+        margin-top: 150px;
+    }
+
+    .center-lower-testi-cont {
+        order: -1;
+    }
+
+    .center-lower-testi-cont img {
+        width: 100%;
+    }
+
+    #phone {
+        top: -25%;
+        right: 10%;
+        width: 80%;
+    }
+
+    .left-lower-testi-cont,
+    .right-lower-testi-cont {
+        width: 100%;
+    }
+
+    .steps,
+    .steps1 {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Testimonial End */
+
+    /* Benefit Start */
+    .benefit-container {
+        padding: 0;
+    }
+
+    .benefit-section {
+        width: 100%;
+    }
+
+    .benefit-section h1 {
+        font-size: 24px;
+    }
+
+    .card {
+        flex-direction: column;
+        padding: 15px;
+        height: auto;
+    }
+
+    .benefit-right-cont img {
+        width: 100%;
+    }
+
+    .benefit-left-cont div {
+        align-items: center;
+    }
+
+    .benefit-left-cont div h1 {
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .benefit-left-cont div h5 {
+        font-size: 25px;
+        margin-left: 10px;
+        width: fit-content;
+    }
+
+    .benefit-left-cont p {
+        font-size: 16px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    /* Benefit End */
+    /* Footer Start */
+    .footer-container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .footer-uppar-part {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .uppar-first-div {
+        order: -1;
+    }
+
+    .uppar-fourth-div {
+        order: -1;
+    }
+
+    .uppar-fifth-div {
+        order: -1;
+    }
+
+    .uppar-second-div {
+        display: none;
+    }
+
+    /* Footer End */
+
+}
+
+@media (min-width:769px) and (max-width: 1400px) {
+
+    /* Navbar Start */
+    .nav-right-cont {
+        display: flex;
+    }
+
+    .humburger {
+        display: none;
+    }
+
+    .nav-container {
+        max-width: 100%;
+        padding: 30px 20px;
+    }
+
+    .nav-right-cont {
+        gap: 30px;
+    }
+
+    .navbar-section {
+        height: 90px;
+    }
+
+    .nav-left-cont img {
+        width: 100px;
+    }
+
+    /* Navbar End */
+
+    /* Hero Start */
+    .main-container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .hero-container {
+        flex-direction: row;
+    }
+
+    .hero-right-cont img {
+        width: 100%;
+    }
+
+    .hero-left-cont {
+        gap: 20px;
+    }
+
+    .lower-hero-left-cont {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .uppar-hero-left-cont h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .uppar-hero-left-cont p {
+        line-height: 28px;
+    }
+
+    .lower-hero-left-cont .btn {
+        font-size: 12px;
+        padding: 12px;
+        gap: 5px;
+        width: 100%;
+    }
+
+    /* Hero End */
+
+    /* Apply Start */
+    .apply-section {
+        height: auto;
+    }
+
+    .apply-container {
+        margin: 0;
+        width: 100%;
+        padding: 20px;
+        gap: 30px;
+        flex-direction: row;
+    }
+
+    .apply-left-container {
+        width: 50%;
+    }
+
+    .apply-right-container {
+        flex-direction: row;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .apply-right-container input {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .apply-right-container button {
+        width: 100%;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    /* Apply End */
+
+    /* Testimonial Start */
+    .uppar-testi-cont {
+        width: 40%;
+    }
+
+    .uppar-testi-cont h5 {
+        font-size: 30px;
+    }
+
+    .uppar-testi-cont p {
+        font-size: 22px;
+    }
+
+    .lower-testi-cont {
+        flex-direction: row;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .steps,
+    .steps1 {
+        width: 100%;
+    }
+
+    /* Testimonial End */
+
+
+
+    /* Benefit Start */
+    .benefit-section {
+        width: 100%;
+    }
+
+    .benefit-section h1 {
+        font-size: 30px;
+    }
+
+    .card {
+        flex-direction: row;
+        padding: 30px;
+        height: auto;
+    }
+
+    .benefit-right-cont img {
+        width: 100%;
+    }
+
+    .benefit-left-cont div {
+        justify-content: flex-start;
+    }
+
+    .benefit-left-cont div h1 {
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .benefit-left-cont div h5 {
+        font-size: 40px;
+        margin-left: 10px;
+    }
+
+    .benefit-left-cont p {
+        font-size: 22px;
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    .card2 {
+        flex-direction: row-reverse;
+    }
+
+    /* Benefit End */
+
+    /* Footer Start */
+    .footer-container {
+        max-width: 100%;
+    }
+
+    .footer-uppar-part {
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .uppar-second-div {
+        display: none;
+    }
+
+    /* Footer End */
+}
+
+@media (min-width:1400px) {
+
+    /* Navbar Start */
+    .nav-right-cont {
+        display: flex;
+    }
+
+    .humburger {
+        display: none;
+    }
+
+    .nav-container {
+        max-width: 100%;
+        padding: 30px 20px;
+    }
+
+    .lower-hero-left-cont {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .lower-hero-left-cont .btn {
+        font-size: 18px;
+        padding: 12px;
+        width: 100%;
+    }
+
+    /* Hero End */
+
+    /* Apply Start */
+    .apply-section {
+        height: auto;
+    }
+
+    .apply-left-container {
+        width: 50%;
+    }
+
+    .apply-right-container input {
+        padding: 20px;
+    }
+
+    .apply-right-container button {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    /* Apply End */
+
+    /* Testimonial Start */
+    .lower-testi-cont {
+        width: 100%;
+    }
+
+    /* Testimonial End */
+
+
+
+    /* Benefit Start */
+    .benefit-section {
+        width: 100%;
+    }
+
+    .benefit-container {
+        padding-bottom: 100px;
+    }
+
+    .benefit-left-cont div {
+        justify-content: flex-start;
+    }
+
+    /* Benefit End */
+
+    /* Footer Start */
+    .footer-container {
+        max-width: 1300px;
+    }
+
+    .footer-uppar-part {
+        flex-direction: row;
+        justify-content: s;
+        text-align: center;
+    }
+
+    .uppar-second-div {
+        display: block;
+    }
+
+    /* Footer End */
+}
