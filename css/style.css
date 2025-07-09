@@ -222,3 +222,109 @@ a {
 }
 
 /* Apply End */
+
+/* Testimonial Start */
+.testimonial-section{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.uppar-testi-cont{
+    width: 40%;
+    margin: 150px 0;
+    text-align: center;
+}
+
+.uppar-testi-cont h5{
+    font-size: 46px;
+}
+.uppar-testi-cont h5 span{
+    color: #75BF7A;
+}
+
+.uppar-testi-cont p{
+    font-size: 23px;
+    color: #9E9DA2;
+}
+.lower-testi-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 50px;
+}
+
+.left-lower-testi-cont{
+    width: 40%;
+    text-align: end;
+    /* border: 1px solid orangered; */
+
+}
+
+.center-lower-testi-cont{
+    position: relative;
+    /* border: 1px solid pink; */
+}
+
+
+
+#phone{
+    position: absolute;
+    top: -25%;
+    right: 15%;
+    /* left: 50%; */
+}
+
+.right-lower-testi-cont{
+    width: 40%;
+    /* border: 1px solid orange; */
+}
+
+.steps{
+    margin-bottom: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.steps1{
+    margin-bottom: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.step{
+    position: relative;
+    /* border: 1px solid red; */
+    width: 65px;
+}
+
+.number{
+    position: absolute;
+    top: 28%;
+    right: 35%;
+}
+
+.steps h5, .steps1 h5{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 50.35px;
+}
+
+.steps p, .steps1 p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #9E9DA2;
+}
+/* Testimonial End */
